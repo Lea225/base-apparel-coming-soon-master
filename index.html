@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <div class="logo-div"><img class="logo" src="https://raw.githubusercontent.com/Lea225/base-apparel-coming-soon-master/d75317c6bb1365f6dc642af285c1a3497b892fb5/images/logo.svg" alt="logo"></div>
+  <section>
+    <div class="text-div">
+      <h1><span>We're</span> coming soon</h1>
+      <p class="text">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <div class="input-container">
+          <input type="email" id="emailInput" placeholder="Email Address" oninput="validateEmail()">
+          <button onclick="validateEmail()"><img src="https://raw.githubusercontent.com/Lea225/base-apparel-coming-soon-master/d75317c6bb1365f6dc642af285c1a3497b892fb5/images/icon-arrow.svg" alt="icon-arrow"></button>
+          <div id="emailError"></div>
+          <img id="errorImage" src="https://raw.githubusercontent.com/Lea225/base-apparel-coming-soon-master/d75317c6bb1365f6dc642af285c1a3497b892fb5/images/icon-error.svg" alt="error-icon" class="error-icon">
+        </div>
+    </div>
+    <div class="img-div"><img class="main-img" src="https://github.com/Lea225/base-apparel-coming-soon-master/blob/main/images/hero-desktop.jpg?raw=true" alt="hero-desktop"></div>
+  </section>
+<footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Léa CHIDAS</a>.
+    </p>
+  </footer>
+</body>
+</html>
